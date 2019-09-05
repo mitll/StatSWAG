@@ -26,26 +26,26 @@ or any of its libraries.
 Usage
 -----
 
-``
-from statswag.estimators import IWMV
-import numpy as np
+.. code:: python
 
-labels = [[0,1,1],
-          [0,0,1],
-          [1,1,1],
-          [0,0,0],
-          [1,1,1],
-          [0,0,1],
-          [1,1,1],
-          [0,1,0],
-          [0,0,0],
-          [1,0,1]]
-labels = np.asarray(labels)
+  from statswag.estimators import IWMV
+  import numpy as np
 
-iwmv = IWMV()
-result = iwmv.fit(labels)
-print(result)
-``
+  labels = [[0,1,1],
+            [0,0,1],
+            [1,1,1],
+            [0,0,0],
+            [1,1,1],
+            [0,0,1],
+            [1,1,1],
+            [0,1,0],
+            [0,0,0],
+            [1,0,1]]
+  labels = np.asarray(labels)
+
+  iwmv = IWMV()
+  result = iwmv.fit(labels)
+  print(result)
 
 More detailed examples of basic usage can be found in `statswag/examples/`.
 
