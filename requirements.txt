@@ -19,7 +19,7 @@
 # statswag/metrics/__init__.py: 1
 # statswag/setup.py: 5,26
 # statswag/utils/__init__.py: 1
-numpy == 1.16.4
+numpy == 1.22.0
 
 # statswag/estimators/MLE.py: 9
 # statswag/estimators/iwmv.py: 4
