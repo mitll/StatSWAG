@@ -36,7 +36,7 @@ pandas == 0.23.4
 scikit_learn == 0.20.0
 
 # setup.py: 7,145
-setuptools == 41.0.1
+setuptools == 65.5.1
 
 # statswag/estimators/MLE.py: 6
 # statswag/estimators/base.py: 5
